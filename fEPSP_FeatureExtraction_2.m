@@ -1,10 +1,15 @@
 clear all
 close all
 
-load("D:\Project_2025_2026_HIPPO\Workspace\HippocampalSignalProcessing\DATASET\ETRI\fEPSP_E17.mat");
-load("D:\Project_2025_2026_HIPPO\Workspace\HippocampalSignalProcessing\DATASET\ETRI\fEPSP_E45.mat");
-load("D:\Project_2025_2026_HIPPO\Workspace\HippocampalSignalProcessing\DATASET\ETRI\fEPSP_E55.mat");
+% % for Window
+% load("D:\Project_2025_2026_HIPPO\Workspace\HippocampalSignalProcessing\DATASET\ETRI\fEPSP_E17.mat");
+% load("D:\Project_2025_2026_HIPPO\Workspace\HippocampalSignalProcessing\DATASET\ETRI\fEPSP_E45.mat");
+% load("D:\Project_2025_2026_HIPPO\Workspace\HippocampalSignalProcessing\DATASET\ETRI\fEPSP_E55.mat");
 
+% for Mac os
+load("fEPSP_E17.mat");
+load("fEPSP_E45.mat");
+load("fEPSP_E55.mat");
 t_E17 = fEPSP_E17(:,1);
 t_E45 = fEPSP_E45(:,1);
 t_E55 = fEPSP_E55(:,1);
